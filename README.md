@@ -10,6 +10,6 @@ I am learning base r from scratch to become proficient in data analysis and data
 ##This is my structured learning path and I will keep updating it as I progress
 
 ##Topic 1: Fundamentals of R
-1. Lesson01: Environment Setup in R
-Working directory (getwd(), setwd()), listing files using (list.files()), listing hidden files by setting all.files = TRUE, 
+1. Lesson01: Environment Setup in R.
+I learned Working directory (getwd(), setwd()), listing files using (list.files()), listing hidden files by setting all.files = TRUE, 
 workspace management (ls(), rm()), package handling using (search(), .libPaths(), install.packages(), library())
