@@ -10,4 +10,4 @@ I am learning base r from scratch to become proficient in data analysis and data
 ##This is my structured learning path and I will keep updating it as I progress
 
 ##Topic 1: Fundamentals of R
-Lesson01: Environment Setup
+Lesson01: Environment Setup in R
