@@ -13,3 +13,7 @@ I am learning base r from scratch to become proficient in data analysis and data
 1. Lesson01: Environment Setup in R.
 I learned Working directory (getwd(), setwd()), listing files in the working directory using (list.files()), listing hidden files in the working directory by setting all.files = TRUE, 
 workspace management (ls(), rm()), package handling using (search(), .libPaths(), install.packages(), library())
+
+2. Lesson02: Basic Operations in r.
+I learned Arithmetic operators (+, -, *, /, ^, %%, %/%), variable assignment (<-), comparison operators (==, !=, <, >, <=, >=), logical operators (&, |, !), 
+operator precedence(PEMDAS), variable naming rules.
