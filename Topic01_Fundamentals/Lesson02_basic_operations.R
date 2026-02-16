@@ -70,7 +70,6 @@ c(T,F) & c(F,T)
 
 #&& this is also 'and' but it compares just the first elements and mainly used in if statements
 
-
 #or  (|) this is vectorized 'or' which returns true when one of the conditions is true
 (g>=c) | (d<=f)
 
