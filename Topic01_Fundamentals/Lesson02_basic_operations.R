@@ -68,10 +68,10 @@ c <= g
 (c>d) & (d>f)
 c(T,F) & c(F,T)
 
-#&& this is also 'and' but it checks just the first values and mainly used in if statements
+#&& this is also 'and' but it compares just the first elements and mainly used in if statements
 
 
-#or  (|) this returns true when one of the conditions is true
+#or  (|) this is vectorized 'or' which returns true when one of the conditions is true
 (g>=c) | (d<=f)
 
 # || this is also 'or' but it only compares the first element and mainly used in if statements
