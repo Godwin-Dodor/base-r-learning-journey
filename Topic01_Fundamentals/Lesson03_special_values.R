@@ -137,11 +137,11 @@ FALSE | NULL
 
 
 ##NaN: (Not a Number) this represents mathematical operations that are not possible
-0/0 #Zero divided by zero
-Inf - Inf #Infinity minus Infinity
-Inf/Inf  #Infinity divided by Infinity
-0 * Inf  #zero times Infinity
-sqrt(-1) #square root of negative one
+0/0 #Nan
+Inf - Inf #NaN
+Inf/Inf  #NaN
+0 * Inf  #NaN
+sqrt(-1) #NaN
 
 #The following operations are valid and won't return NaN
 Inf + Inf #Inf
@@ -159,6 +159,9 @@ is.na(NaN) #TRUE because NaN is NA hence all NaN are NA but not all NA are NaN
 4 + NaN #NaN
 54-NaN  #NaN
 
+#Comparison operations with NaN
+43 <= NaN #NA
+56 >  NaN #NA
 
 ##Inf and -Inf
 #Inf is positive infinity
@@ -173,7 +176,7 @@ is.na(NaN) #TRUE because NaN is NA hence all NaN are NA but not all NA are NaN
 #is.infinite() checks if there is an infinite value
 d <- c(32,34,Inf,43,890)
 is.infinite(d) 
-is.finite(d) #This checks for finite value hence it is the opposite of is.infinite()
+is.finite(d) #This checks for finite values hence it is the opposite of is.infinite()
 
 #Arithmetic operations with Inf
 213 + Inf  #Inf
@@ -181,18 +184,11 @@ Inf - 434  #Inf
 Inf * 2    #Inf
 
 #Comparison Operations with Inf
-23 < Inf
-Inf >= 585
--Inf <= 3
-Inf == Inf 
+23 < Inf #TRUE
+Inf >= 585 #TRUE
+-Inf <= 3 #TRUE
+Inf == Inf  #TRUE
 
 #Removing Inf values with subsetting
 d[is.finite(d)]  
 d[!is.infinite(d)]
-
-
-k <- c(1, 2, NaN, 4, 5)
-k[!is.nan(k)]
-k[complete.cases(k)]
-k[is.finite(k)]
-sum(is.nan(k))
