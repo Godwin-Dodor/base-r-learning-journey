@@ -1,5 +1,8 @@
-##Etornam Godwin Dodor
-##02/15/2026
+##Author: Etornam Godwin Dodor
+##Date Created: 02/15/2026
+##Date Last Updated: 02/20/2026
+##Description: In this lesson, I learned Arithmetic operators (+, -, *, /, ^, %%, %/%), variable assignment (<-), comparison operators (==, !=, <, >, <=, >=), 
+##logical operators (&, |, !), operator precedence(PEMDAS), variable naming rules.
 
 
 ##Checking the current working directory
