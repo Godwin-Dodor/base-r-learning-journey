@@ -1,5 +1,10 @@
-##Etornam Godwin Dodor
-##02/14/2026
+##Author: Etornam Godwin Dodor
+##Date Created: 02/14/2026
+##Date Last Updated: 02/20/2026
+##Description: In this lesson, I learned Working directory (getwd(), setwd()), listing files in the working directory using (list.files()), 
+#listing hidden files in the working directory by setting all.files = TRUE, workspace management (ls(), rm()), 
+#package handling using (search(), .libPaths(), install.packages(), library())
+
 
 ##WORKING DIRECTORY
 #Checking the current working directory
