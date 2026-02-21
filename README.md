@@ -20,3 +20,7 @@ operator precedence(PEMDAS), variable naming rules.
 3. Lesson03: Special Values in R.
 I learned NA (missing values, is.na(), na.rm = TRUE), NULL (empty objects, is.null()), NaN (invalid math, is.nan()), Inf and -Inf (infinity, is.infinite(),is.finite()), 
 as well as handling and removing special values.
+
+4. Lesson04: Vectors Creation in R.
+I learned creating vectors with c(), type coercion hierarchy, vector(), numeric(), character(), logical(), complex(), 
+sequences with the colon operator : and seq(), seq_len(), seq_along(), repetitions with rep() (times, each, length.out), named vectors
