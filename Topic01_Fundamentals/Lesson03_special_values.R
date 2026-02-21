@@ -1,5 +1,8 @@
-##Etornam Godwin Dodor
-##02/16/2026
+##Author: Etornam Godwin Dodor
+##Date Created: 02/16/2026
+##Date Last Updated: 02/20/2026
+##Description: I learned NA (missing values, is.na(), na.rm = TRUE), NULL (empty objects, is.null()), NaN (invalid math, is.nan()), 
+##Inf and -Inf (infinity, is.infinite(),is.finite()), as well as handling and removing special values.
 
 
 #clearing the workspace
