@@ -1,6 +1,6 @@
 # Base R learning journey
-This is my journey of learning and documenting base r. 
-I am learning base r from scratch to become proficient in data analysis and data manipulation.
+This is my journey of learning and documenting base R.  
+I am learning base R from scratch to become proficient in data analysis and data manipulation.
 
 ## Personal goals
 1. Master Base R Fundamentals and advances.
