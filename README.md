@@ -24,3 +24,7 @@ as well as handling and removing special values.
 4. Lesson04: Vectors Creation in R.
 I learned creating vectors with c(), type coercion hierarchy, vector(), numeric(), character(), logical(), complex(), 
 sequences with the colon operator : and seq(), seq_len(), seq_along(), repetitions with rep() (times, each, length.out), named vectors
+
+5. Lesson05: Vectors Sequences.R
+I worked with seq() patterns such as (decimal steps, length.out), rep() patterns (nested, times vector, combining `each` and `times`), combining `seq()` and `rep()`, 
+mathematical sequences (arithmetic), sequence manipulation (`rev()`, `sort()`)
