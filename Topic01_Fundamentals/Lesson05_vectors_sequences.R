@@ -81,5 +81,5 @@ rev(a) # 26 21 16 11  6  1
 ##SORTING SEQUENCES
 #use sort()
 b <- c(76,4,67,67,9,122,54)
-sort(b)  #at default is sorts in ascending order
+sort(b)  #at default it sorts in ascending order
 sort(b, decreasing = T) #sorts in descending order
