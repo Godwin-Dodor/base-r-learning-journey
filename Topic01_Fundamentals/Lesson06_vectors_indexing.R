@@ -312,7 +312,6 @@ counts[counts > 1]       #10:2, 20:3, 30:2
 
 ##SAMPLE() - RANDOM SAMPLING
 #sample() randomly selects elements
-
 numbers <- 1:100
 
 #Sample 10 random elements (without replacement)
