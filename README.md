@@ -28,3 +28,7 @@ sequences with the colon operator : and seq(), seq_len(), seq_along(), repetitio
 5. Lesson05: Vectors Sequences.R
 I worked with seq() patterns such as (decimal steps, length.out), rep() patterns (nested, times vector, combining `each` and `times`), combining `seq()` and `rep()`, 
 mathematical sequences (arithmetic), sequence manipulation (`rev()`, `sort()`)
+
+6. Lesson06: Vectors Indexing
+I learned positive indexing, negative indexing (exclusion), logical indexing with conditions (`&`, `|`), `which()`, `which.min()`, `which.max()`, named indexing, subsetting and replacement, 
+ `%in%` operator, `head()`, `tail()`, `unique()`, `duplicated()`, `sample()`
