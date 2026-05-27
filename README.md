@@ -28,3 +28,8 @@ I worked with `seq()` patterns such as (decimal steps, `length.out`), `rep()` pa
 
 6. **Lesson06: Vectors Indexing**  
 I learned positive indexing, negative indexing (exclusion), logical indexing with conditions (`&`, `|`), `which()`, `which.min()`, `which.max()`, named indexing, subsetting and replacement, `%in%` operator, `head()`, `tail()`, `unique()`, `duplicated()`, `sample()`
+
+7. **Lesson07: Vectors Operations**
+I learned vectorization principles, arithmetic operations on vectors (`+`, `-`, `*`, `/`, `^`, `%%`, `%/%`), vector recycling rules, comparison operations returning logical vectors, combining conditions with `&` and `|`, statistical functions (`sum()`, `mean()`, `median()`, `sd()`, `var()`, `min()`, `max()`, `range()`, `quantile()`), 
+cumulative functions (`cumsum()`, `cumprod()`, `cummin()`, `cummax()`, `diff()`), rounding functions (`round()`, `floor()`, `ceiling()`, `trunc()`, `signif()`), transformations (`sqrt()`, `log()`, `exp()`, `abs()`, `sign()`), sorting and ordering (`sort()`, `order()`, `rank()`, `rev()`), set operations (`union()`, `intersect()`, `setdiff()`, `setequal()`), 
+testing with `any()` and `all()`, handling duplicates with `unique()` and `duplicated()`
