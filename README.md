@@ -33,3 +33,7 @@ I learned positive indexing, negative indexing (exclusion), logical indexing wit
 I learned vectorization principles, arithmetic operations on vectors (`+`, `-`, `*`, `/`, `^`, `%%`, `%/%`), vector recycling rules, comparison operations returning logical vectors, combining conditions with `&` and `|`, statistical functions (`sum()`, `mean()`, `median()`, `sd()`, `var()`, `min()`, `max()`, `range()`, `quantile()`), 
 cumulative functions (`cumsum()`, `cumprod()`, `cummin()`, `cummax()`, `diff()`), rounding functions (`round()`, `floor()`, `ceiling()`, `trunc()`, `signif()`), transformations (`sqrt()`, `log()`, `exp()`, `abs()`, `sign()`), sorting and ordering (`sort()`, `order()`, `rank()`, `rev()`), set operations (`union()`, `intersect()`, `setdiff()`, `setequal()`), 
 testing with `any()` and `all()`, handling duplicates with `unique()` and `duplicated()`
+
+8. **Lesson08: Factors Creation in R**  
+I learned what factors are and why we use them for categorical data, creating basic factors with `factor()`, default alphabetical level ordering, specifying custom level orders with the `levels` argument, creating ordered factors with `ordered = TRUE`, comparing ordered factor elements, generating balanced designs with `gl()`, 
+converting to a factor using `as.factor()`, factor properties (`levels()`, `nlevels()`, `table()`, `is.factor()`)
